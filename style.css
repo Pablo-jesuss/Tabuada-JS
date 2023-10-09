@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica;
+}
+
+body {
+  text-align: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #db4444 0%, #2c13b4 91%);
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
