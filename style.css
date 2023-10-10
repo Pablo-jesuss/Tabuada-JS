@@ -56,4 +56,8 @@ h2 {
 
 #multiplication-form input[type="submit"] {
   max-height: 50px;
+  padding: 0.6rem 1.2rem;
+  width: 200px;
+  color: #fff;
+  background-color: #333;
 }
