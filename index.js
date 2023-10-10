@@ -14,3 +14,7 @@ const multiplicationInput = document.querySelector("#multiplicator");
 // Funções
 
 // Eventos
+
+multiplicationForm.addEventListener("submit", (e) => {
+  
+})
