@@ -7,7 +7,7 @@ const multiplicationInput = document.querySelector("#multiplicator");
 // Funções
 
 const createTable = (number, multiplicatorNumber) => {
-  
+  console.log(number, multiplicatorNumber);
 }
 
 // Eventos
@@ -21,6 +21,6 @@ multiplicationForm.addEventListener("submit", (e) => {
 
   if (!multiplicationNumber || !multiplicatorNumber) return;
 
-  console.log(multiplicationNumber, multiplicatorNumber);
+  createTable(multiplicationNumber, multiplicatorNumber);
   
 })
