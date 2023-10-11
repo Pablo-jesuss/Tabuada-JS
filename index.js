@@ -20,6 +20,13 @@ const createTable = (number, multiplicatorNumber) => {
     <div class="operation">${number} x ${i} = </div>
     <div class="result">${result}</div>
     </div>`;
+
+    const parser = new DOMParser()
+
+    const htmlTemplate = parser.parseFromString(template, "text/html")
+
+
+
   }
 
 }
