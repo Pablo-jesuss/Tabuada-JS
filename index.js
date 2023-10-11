@@ -25,6 +25,9 @@ const createTable = (number, multiplicatorNumber) => {
 
     const htmlTemplate = parser.parseFromString(template, "text/html")
 
+    const row = htmlTemplate.querySelector(".row")
+
+    multiplicationTable.appendChild(row);
 
 
   }
